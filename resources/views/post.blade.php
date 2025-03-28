@@ -23,10 +23,10 @@
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                                 <img src="./assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-info">
-                                <h4>{{ $item['title'] }}</h4>
-                                <p>{!! implode(' ', array_slice(explode(' ', $item['content']), 0, 5)) !!}...</p>
-                                <a href="./assets/img/portfolio/product-1.jpg" title="{{ $item['title'] }}" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="{{ route('post_by_slug', ['slug' => $item['slug']]) }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                    <h4>{!! implode(' ', array_slice(explode(' ', $item['title']), 0, 4)) !!}...</h4>
+                                    <p>{!! implode(' ', array_slice(explode(' ', $item['content']), 0, 4)) !!}...</p>
+                                    <a href="./assets/img/portfolio/product-1.jpg" title="{{ $item['title'] }}" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ route('post_by_slug', ['slug' => $item['slug']]) }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div><!-- End Portfolio Item -->
                         @endforeach
@@ -40,8 +40,7 @@
                         </ul>
                     @endif
 
-                </div>
-
+                </div><!-- End Portfolio Container -->
 
             </div>
 

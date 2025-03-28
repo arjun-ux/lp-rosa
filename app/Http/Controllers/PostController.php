@@ -11,9 +11,13 @@ class PostController extends Controller
     // get data posts
     public function getPost(){
         // get data form api
-        $url = 'https://test.roudlotussalam.com/api/data-posts/';
-        $client_id = 'a7f77e97-ba5b-40f6-9cd2-73aa67ffb71e';
-        $client_key = 'MpfPVNgvH0VpoVw2cWcYp8CvSNyZSUeI';
+        $base_url = env("API_URL");
+        $url = $base_url . "/data-posts";// url api
+        $client_id = env("API_ID");
+        $client_key = env("API_KEY");
+
+
+        // dd($client_key);
 
         $response = Http::withHeaders([
             'Client-ID' => $client_id,
@@ -40,9 +44,11 @@ class PostController extends Controller
 
     // get post by id
     public function getPostBySlug(Request $request){
-        $url = 'https://test.roudlotussalam.com/api/get-post';
-        $client_id = 'a7f77e97-ba5b-40f6-9cd2-73aa67ffb71e';
-        $client_key = 'MpfPVNgvH0VpoVw2cWcYp8CvSNyZSUeI';
+        $base_url = env("API_URL");
+        $url = $base_url . "/get-post";// url api
+        $client_id = env("API_ID");
+        $client_key = env("API_KEY");
+
 
         $slug = $request['slug'];
 
