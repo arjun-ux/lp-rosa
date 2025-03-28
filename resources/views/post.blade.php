@@ -22,12 +22,14 @@
                         @foreach ($datas as $item)
                             <div class="col-lg-6 col-md-8 portfolio-item isotope-item filter-product text-center">
                                 <img src="{{ $item['image'] }}" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>{!! implode(' ', array_slice(explode(' ', $item['title']), 0, 5)) !!}...</h4>
-                                    <p>{!! implode(' ', array_slice(explode(' ', $item['content']), 0, 5)) !!}...</p>
-                                    <a href="{{ $item['image'] }}" title="{{ $item['title'] }}" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="{{ route('post_by_slug', ['slug' => $item['slug']]) }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                                </div>
+                                <a href="{{ route('post_by_slug', ['slug' => $item['slug']]) }}">
+                                    <div class="portfolio-info">
+                                        <h4>{!! implode(' ', array_slice(explode(' ', $item['title']), 0, 5)) !!}...</h4>
+                                        <p>{!! implode(' ', array_slice(explode(' ', $item['content']), 0, 5)) !!}...</p>
+                                        <a href="{{ $item['image'] }}" title="{{ $item['title'] }}" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                        <a href="{{ route('post_by_slug', ['slug' => $item['slug']]) }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                    </div>
+                                </a>
                             </div><!-- End Portfolio Item -->
                         @endforeach
                     @else
