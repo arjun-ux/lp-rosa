@@ -88,7 +88,7 @@
                     </div>
                 </div>
                 <div class="article-image">
-                    <img src="{{ asset('assets/img/portfolio/app-1.jpg') }}" alt="Gambar Berita">
+                    <img src="{{ $data['image'] }}" alt="Gambar Berita">
                 </div>
                 <div class="article-content">
                     <p>{!! $data['content'] !!}</p>
