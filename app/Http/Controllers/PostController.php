@@ -15,8 +15,6 @@ class PostController extends Controller
         $url = $base_url . "/data-posts";// url api
         $client_id = env("API_ID");
         $client_key = env("API_KEY");
-
-
         // dd($client_key);
 
         $response = Http::withHeaders([
@@ -26,7 +24,6 @@ class PostController extends Controller
 
         $datas = $response->json()['data'] ?? null;
 
-        // dd($datas);
 
         // Mengecek apakah permintaan berhasil
         if ($response->successful() && !empty($datas)) {
