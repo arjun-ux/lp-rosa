@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
+    <url>
+        <loc>https://smp.roudlotussalam.com/</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Berita -->
+    <url>
+        <loc>https://smp.roudlotussalam.com/berita</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Program -->
+    <url>
+        <loc>https://smp.roudlotussalam.com/program</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Tentang Kami -->
+    <url>
+        <loc>https://smp.roudlotussalam.com/tentang-kami</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Kontak -->
+    <url>
+        <loc>https://smp.roudlotussalam.com/kontak</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Guru & Staff -->
+    <url>
+        <loc>https://smp.roudlotussalam.com/guru</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- PPDB -->
+    <url>
+        <loc>https://smp.roudlotussalam.com/ppdb</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Galeri -->
+    <url>
+        <loc>https://smp.roudlotussalam.com/galeri</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Prestasi -->
+    <url>
+        <loc>https://smp.roudlotussalam.com/prestasi</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Fasilitas -->
+    <url>
+        <loc>https://smp.roudlotussalam.com/fasilitas</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Visi & Misi -->
+    <url>
+        <loc>https://smp.roudlotussalam.com/visi-misi</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Struktur Organisasi -->
+    <url>
+        <loc>https://smp.roudlotussalam.com/struktur-organisasi</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Kurikulum -->
+    <url>
+        <loc>https://smp.roudlotussalam.com/kurikulum</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Ekstrakurikuler -->
+    <url>
+        <loc>https://smp.roudlotussalam.com/ekstrakurikuler</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Kalender Akademik -->
+    <url>
+        <loc>https://smp.roudlotussalam.com/kalender-akademik</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Pengumuman -->
+    <url>
+        <loc>https://smp.roudlotussalam.com/pengumuman</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- E-Learning -->
+    <url>
+        <loc>https://smp.roudlotussalam.com/e-learning</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+</urlset>

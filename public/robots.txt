@@ -1,2 +1,23 @@
 User-agent: *
-Disallow:
+Allow: /
+Allow: /blog
+Allow: /program
+Allow: /tentang-kami
+Allow: /kontak
+Allow: /assets/img/
+Allow: /assets/css/
+Allow: /assets/js/
+
+Disallow: /admin/
+Disallow: /login
+Disallow: /register
+Disallow: /password/
+Disallow: /vendor/
+Disallow: /storage/
+Disallow: /.env
+Disallow: /composer.json
+Disallow: /composer.lock
+Disallow: /package.json
+Disallow: /package-lock.json
+
+Sitemap: https://smp.proudlotussalam.com/sitemap.xml

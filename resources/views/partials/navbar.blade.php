@@ -3,7 +3,7 @@
 
         <a href="#" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-         <img src="assets/img/logo.png" alt="">
+         <img src="{{ asset('assets/img/logo.png') }}" alt="">
         <h1 class="sitename">SMP<span>ROSA</span></h1>
         </a>
 
@@ -18,7 +18,7 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-        <a class="btn-getstarted" href="{{ route('home') }}#tentang-kami">Get Started</a>
+        <a class="btn-getstarted" href="{{ route('home') }}#tentang-kami">Mulai</a>
 
     </div>
 </header>

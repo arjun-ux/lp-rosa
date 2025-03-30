@@ -1,12 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>SMP ROUDLOTUSSALAM | PATOMAN WATUKEO BANYUWANGI</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+
+    <!-- Primary Meta Tags -->
+    <title>SMP Roudlotussalam | Sekolah Islam Terpadu di Banyuwangi</title>
+    <meta name="title" content="SMP Roudlotussalam | Sekolah Islam Terpadu di Banyuwangi">
+    <meta name="description" content="SMP Roudlotussalam adalah lembaga pendidikan Islam terpadu di Banyuwangi yang mengintegrasikan nilai-nilai Islam dengan pendidikan modern. Program unggulan: Tahfidz, Teknologi Informasi, dan Bahasa Internasional.">
+    <meta name="keywords" content="SMP Roudlotussalam, sekolah islam, banyuwangi, tahfidz, pendidikan islam, sekolah terpadu">
+    <meta name="author" content="SMP Roudlotussalam">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:title" content="SMP Roudlotussalam | Sekolah Islam Terpadu di Banyuwangi">
+    <meta property="og:description" content="SMP Roudlotussalam adalah lembaga pendidikan Islam terpadu di Banyuwangi yang mengintegrasikan nilai-nilai Islam dengan pendidikan modern.">
+    <meta property="og:image" content="{{ asset('assets/img/hero-img.png') }}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ url()->current() }}">
+    <meta property="twitter:title" content="SMP Roudlotussalam | Sekolah Islam Terpadu di Banyuwangi">
+    <meta property="twitter:description" content="SMP Roudlotussalam adalah lembaga pendidikan Islam terpadu di Banyuwangi yang mengintegrasikan nilai-nilai Islam dengan pendidikan modern.">
+    <meta property="twitter:image" content="{{ asset('assets/img/hero-img.png') }}">
 
     <!-- Favicons -->
      <link rel="stylesheet" href="{{ asset('assets/img/favicon.ico') }}" rel="icon">
