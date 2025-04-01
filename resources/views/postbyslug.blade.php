@@ -240,7 +240,7 @@
                             </header>
 
                             @if(!empty($data['image']))
-                                <img src="{{ $data['image'] }}" alt="{{ $data['title'] ?? '' }}" class="post-image">
+                                <img src="{{ env('API_URL_IMAGE').$data['image'] }}" alt="{{ $data['title'] ?? '' }}" class="post-image">
                             @endif
 
                             <div class="post-content">
@@ -285,7 +285,7 @@
                             @if(!empty($latest_posts))
                                 @foreach($latest_posts as $post)
                                     <div class="recent-post-item">
-                                        <img src="{{ $post['image'] ?? '' }}" class="recent-post-image" alt="{{ $post['title'] ?? '' }}">
+                                        <img src="{{ env('API_URL_IMAGE').$post['image'] ?? '' }}" class="recent-post-image" alt="{{ $post['title'] ?? '' }}">
                                         <div class="recent-post-content">
                                             <a href="{{ route('post_by_slug', ['slug' => $post['slug'] ?? '']) }}" class="recent-post-title">
                                                 {{ $post['title'] ?? '' }}

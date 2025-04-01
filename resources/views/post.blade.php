@@ -177,7 +177,7 @@
             <div class="featured-post">
                 <div class="row">
                     <div class="col-lg-6">
-                        <img src="{{ $latest_post['image'] ?? '' }}" class="img-fluid" alt="{{ $latest_post['title'] }}">
+                        <img src="{{ env('API_URL_IMAGE').$latest_post['image'] ?? '' }}" class="img-fluid" alt="{{ $latest_post['title'] }}">
                     </div>
                     <div class="col-lg-6">
                         <div class="featured-content">
@@ -211,7 +211,7 @@
                             @foreach ($datas as $item)
                                 <div class="col-lg-6">
                                     <div class="blog-card card h-100">
-                                        <img src="{{ $item['image'] ?? '' }}" class="blog-image" alt="{{ $item['title'] ?? '' }}">
+                                        <img src="{{ env('API_URL_IMAGE').$item['image'] ?? '' }}" class="blog-image" alt="{{ $item['title'] ?? '' }}">
                                         <div class="blog-content">
                                             <h3 class="blog-title">
                                                 <a href="{{ route('post_by_slug', ['slug' => $item['slug'] ?? '']) }}" class="text-decoration-none text-dark">
@@ -255,7 +255,7 @@
                             @if(!empty($latest_posts))
                                 @foreach($latest_posts as $post)
                                     <div class="recent-post-item">
-                                        <img src="{{ $post['image'] ?? '' }}" class="recent-post-image" alt="{{ $post['title'] ?? '' }}">
+                                        <img src="{{ env('API_URL_IMAGE').$post['image'] ?? '' }}" class="recent-post-image" alt="{{ $post['title'] ?? '' }}">
                                         <div class="recent-post-content">
                                             <a href="{{ route('post_by_slug', ['slug' => $post['slug'] ?? '']) }}" class="recent-post-title">
                                                 {{ $post['title'] ?? '' }}
